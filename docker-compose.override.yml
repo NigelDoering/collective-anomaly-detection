@@ -1,0 +1,15 @@
+version: '3.4'
+
+x-app-override:
+  &app-override
+  env_file:
+    - app.env
+  volumes:
+      - ./notebooks:/usr/src/app/notebooks
+  ports:
+    - "8888:8888"
+
+services:
+  app:
+    <<: *app-override
+

@@ -1,0 +1,15 @@
+version: '3.4'
+
+
+x-app-base:
+  &app-base
+  build: .
+  command: 
+    - /usr/src/app/scripts/start_app.sh
+  ports:
+    - "8888"
+
+services:
+  app:
+    <<: *app-base
+
