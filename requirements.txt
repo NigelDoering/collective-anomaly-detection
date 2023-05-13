@@ -1,0 +1,6 @@
+# bdp-api-py/
+numpy ~= 1.23.0
+pandas
+torch
+torchvision
+matplotlib
