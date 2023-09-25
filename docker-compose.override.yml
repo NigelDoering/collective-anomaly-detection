@@ -6,6 +6,7 @@ x-app-override:
     - app.env
   volumes:
       - ./notebooks:/usr/src/app/notebooks
+      - ./data:/usr/src/app/data
   ports:
     - "8888:8888"
 
