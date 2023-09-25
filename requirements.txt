@@ -1,6 +1,14 @@
-# bdp-api-py/
 numpy ~= 1.23.0
 pandas
-torch
-torchvision
+#torch
+#torchvision
 matplotlib
+PyPCAlg
+graphviz
+pydot
+causal-learn
+descartes
+geopandas
+shapely
+gdal
+pyproj
